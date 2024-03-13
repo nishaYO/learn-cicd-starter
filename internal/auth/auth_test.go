@@ -42,7 +42,7 @@ func TestGetAPIKey(t *testing.T) {
 			}
 
 			if apiKey != tt.expectedAPIKey {
-				t.Errorf("unexpected API key: got %s, want %s", apiKey, apiKey, tt.expectedAPIKey)
+				t.Errorf("unexpected API key: got %s, want %s", apiKey, tt.expectedAPIKey)
 			}
 		})
 	}
